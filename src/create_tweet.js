@@ -1,3 +1,4 @@
+require('dotenv').config();
 const got = require('got');
 const crypto = require('crypto');
 const OAuth = require('oauth-1.0a');
