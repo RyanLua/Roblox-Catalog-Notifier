@@ -2,7 +2,7 @@
   "dependencies": {
     "crypto": "^1.0.1",
     "dotenv": "^16.4.5",
-    "got": "^11.8.6",
+    "got": "^13.0.0",
     "oauth-1.0a": "^2.2.6"
   },
   "name": "twitter-roblox-catalog-notifier",
