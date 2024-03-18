@@ -88,10 +88,17 @@ async function accessToken({
 }
 
 
+function getData(content) {
+    return {
+        "text": content
+    };
+}
+
+
 async function getRequest({
     oauth_token,
     oauth_token_secret
-}) {
+}, content) {
 
     const token = {
         key: oauth_token,
@@ -104,7 +111,7 @@ async function getRequest({
     }, token));
 
     const req = await got.post(endpointURL, {
-        json: data,
+        json: getData(content),
         responseType: 'json',
         headers: {
             Authorization: authHeader["Authorization"],
@@ -121,7 +128,7 @@ async function getRequest({
 }
 
 
-(async () => {
+module.exports = async function createTweet(content) {
     try {
         // Get request token
         const oAuthRequestToken = await requestToken();
@@ -132,7 +139,7 @@ async function getRequest({
         // Get the access token
         const oAuthAccessToken = await accessToken(oAuthRequestToken, pin.trim());
         // Make the request
-        const response = await getRequest(oAuthAccessToken);
+        const response = await getRequest(oAuthAccessToken, content);
         console.dir(response, {
             depth: null
         });
@@ -140,5 +147,4 @@ async function getRequest({
         console.log(e);
         process.exit(-1);
     }
-    process.exit();
-})();
+};
