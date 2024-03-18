@@ -54,3 +54,7 @@ If you plan to push code then you should be testing it. Run the below command to
 ```
 npm test
 ```
+
+## License
+
+Licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0). See [LICENSE](LICENSE) for details.
