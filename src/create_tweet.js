@@ -2,12 +2,6 @@ require('dotenv').config();
 const got = require('got');
 const crypto = require('crypto');
 const OAuth = require('oauth-1.0a');
-const qs = require('querystring');
-
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
 
 
 // The code below sets the consumer key and consumer secret from your environment variables
@@ -87,4 +81,5 @@ module.exports = async function createTweet(content) {
         console.log(e);
         process.exit(-1);
     }
+    process.exit();
 };
