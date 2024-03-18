@@ -4,7 +4,7 @@ const https = require('https');
 let previousData = [];
 
 function fetchData() {
-    https.get('https://catalog.roblox.com/v2/search/items/details?SortType=3', (res) => {
+    https.get('https://catalog.roblox.com/v2/search/items/details?Category=13&SortType=3&Limit=10', (res) => {
         let data = '';
 
         res.on('data', (chunk) => {
