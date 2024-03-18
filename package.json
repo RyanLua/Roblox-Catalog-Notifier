@@ -4,5 +4,24 @@
     "dotenv": "^16.4.5",
     "got": "^11.8.6",
     "oauth-1.0a": "^2.2.6"
-  }
+  },
+  "name": "twitter-roblox-catalog-notifier",
+  "description": "A Node.js server that posts new Roblox avatar items to X (formerly Twitter).",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanLua/Roblox-Twitter-Catalog-Notifier.git"
+  },
+  "author": "Ryan Luu",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/RyanLua/Roblox-Twitter-Catalog-Notifier/issues"
+  },
+  "homepage": "https://github.com/RyanLua/Roblox-Twitter-Catalog-Notifier#readme"
 }
