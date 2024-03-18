@@ -77,5 +77,4 @@ module.exports = async function createTweet(content) {
         console.log(e);
         process.exit(-1);
     }
-    process.exit();
 };
