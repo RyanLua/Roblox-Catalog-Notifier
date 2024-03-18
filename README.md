@@ -1,2 +1,3 @@
-# Twitter-Roblox-Catalog-Notifier
-🤖 A Node.js server that posts new Roblox avatar items to X (formerly Twitter).
+# Roblox Catalog Notifier
+
+A Node.js server that posts new Roblox items to X using the Roblox Marketplace API
