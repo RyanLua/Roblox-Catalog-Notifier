@@ -33,6 +33,8 @@ function postTweet() {
     }
 }
 
+module.exports = { postTweet, createTweet, tweetQueue };
+
 fetchData();
 setInterval(fetchData, 60000); // Fetch data every 60 seconds
 setInterval(postTweet, 10000); // Post a tweet every 10 seconds

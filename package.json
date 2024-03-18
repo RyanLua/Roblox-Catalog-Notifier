@@ -9,10 +9,12 @@
   "description": "A Node.js server that posts new Roblox avatar items to X (formerly Twitter).",
   "version": "0.0.1",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
   "scripts": {
     "start": "node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
