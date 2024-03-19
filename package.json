@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RyanLua/Roblox-Twitter-Catalog-Notifier.git"
+    "url": "git+https://github.com/RyanLua/Twitter-Roblox-Catalog-Notifier.git"
   },
   "author": "Ryan Luu",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/RyanLua/Roblox-Twitter-Catalog-Notifier/issues"
+    "url": "https://github.com/RyanLua/Twitter-Roblox-Catalog-Notifier/issues"
   },
-  "homepage": "https://github.com/RyanLua/Roblox-Twitter-Catalog-Notifier#readme"
+  "homepage": "https://github.com/RyanLua/Twitter-Roblox-Catalog-Notifier#readme"
 }
