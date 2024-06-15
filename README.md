@@ -3,6 +3,9 @@
     <h1>Roblox Catalog Notifier</h1>
 </div>
 
+> [!WARNING]  
+> This repository is no longer being maintained and is now archived.
+
 A Node.js server that posts new Roblox items to Twitter. You can see it in action on [@CatalogUpdates](https://twitter.com/CatalogUpdates).
 
 Fetches the latest items using the [Roblox Marketplace API](https://create.roblox.com/docs/projects/assets/api#marketplace-api) then posts new items to Twitter using the [Twitter API](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api).
