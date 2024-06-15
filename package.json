@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "dotenv": "^16.4.5",
-    "got": "^11.8.6",
+    "got": "^12.6.1",
     "oauth-1.0a": "^2.2.6"
   },
   "name": "twitter-roblox-catalog-notifier",
